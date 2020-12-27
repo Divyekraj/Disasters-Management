@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+::-webkit-scrollbar{
+                width:10px;   
+                background:rgb(0,0,0,0.8);
+                }
+           
+            ::-webkit-scrollbar-thumb{
+                background:#D899FF;
+                border-radius:10px;
+            border:1px solid black;}
+            
+            ::-webkit-scrollbar-thumb:hover{
+                 cursor:grab;
+            }
+            *{
+                padding:0px;
+                margin:0px;
+               
+            }
+            .header{
+                width:100%;
+                height:10%;
+                background-color:#3b5998;
+                position:absolute;
+                display:inline-block;
+                border-bottom:1px solid black;
+                
+            }
+            .side_nav{
+                width:20%;
+                height:652px;
+                display:block;
+                position:absolute;
+                background-color:#3b5998;
+                background-repeat:no-repeat;
+                background-size:cover;
+               
+                border-right:1px solid black;
+                border-bottom-right-radius:5px;
+            }
+            .notification_div{
+                width:80%;
+                float:right;
+                
+                background-color:brown;
+                margin-top:65px;
+                position:relative;
+                left:16.1%;
+                
+            }
+            .footer{
+                width:100%;
+                height:30px;
+                background-color:black;
+                opacity:0.9;
+                top:99%;
+                bottom:0;
+                display:inline-block;
+               position:absolute;
+                border:1px solid black;
+            }
+            .footer,.text{
+                text-align:center;
+                color:yellow;
+            }
+            .title{
+                padding:7px;
+                font-family: 'Josefin Sans', sans-serif;
+               color:black;
+               background-color:rgba(0,0,0,0.5);
+               font-weight:bolder;
+            }
+            #profile{
+                border:5px groove white;
+                border-radius:20px;
+                margin:5px;
+            }
+.icon_div{
+    float:right;
+    height:40px;
+    width:150px;
+	margin:3px;
+        display:inline-block;
+       
+}
+.not_icon{
+	width:40px;
+	height:40px;
+	background-color:whitesmoke;
+	border-radius:20px;
+        display:inline;
+        margin-top:10px;
+}
+.not_icon:hover{
+    background-color:yellowgreen;
+}
+.menu{
+    width:245px;
+    height:50px;
+    padding:10px;
+    list-style-type:none;
+    color:#ffffff;
+    text-shadow:2px 2px black;
+    display:inline-block;
+    margin-left:25px;
+    margin-top:15px;
+    font-weight:bolder;
+    font-size:20px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing:1px;
+}   
+.menu:hover{
+    background-color:brown;
+    color:white;
+    text-shadow:2px 2px black;
+}
+#visit{
+    float:right;
+    width:130px;
+    margin-top:10px;
+    background-color:green;
+    padding:10px;
+    border-radius:20px;
+    top:50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:bolder;
+    color:white;
+    margin-right:20px;
+   
+}
+#visit:hover{
+    background-color:white;
+    color:black;
+}
+
+#name_span{
+   margin-left:5px;
+   font-size:17px;
+   border-radius:20px;
+   width:30px;
+   padding:10px;
+   background-color:#ffffff;
+   border:1px solid white;
+}
+.container{
+   left:20%;
+    background-color:lightgray;
+    
+   background-repeat:no-repeat;
+   background-size:cover;
+   top:100%;
+   width:80%;
+   height:590px;
+   display:block;
+    position:absolute;
+    border-left:5px groove silver;
+    border-bottom:5px groove silver;
+    border-top:5px groove silver;
+    border-radius:5px;
+   font-family: 'Crimson Text', serif;
+}
+.counting{
+    display:inline-block;
+    border-radius:0px;
+    background-color:#0099CC;
+    border:1px solid black;
+    width:300px;
+    height:200px;
+    display:inline-table;
+    margin:50px 40px 10px 80px;
+    box-shadow:10px 10px #3b3838;
+}
+#title{
+   
+   margin-top:15px;
+   
+    display:inline-block;
+   margin-left:300px;
+   width:600px;
+   height:30px;
+   align-content:center;
+   font-family: 'Merriweather', serif;
+      background-color:#ffffff;
+      text-align:center;
+   font-size:17px;
+   border-radius:20px;
+}
+.not_cont{
+    width:300px;
+    height:500px;
+    display:none;
+    left:81%;
+    top:17%;
+    background-color:yellowgreen;
+    border:1px solid black;
+    position:fixed;
+}
+.count_name{
+    color:black;
+    padding:5px;
+    text-align:center;
+    font-family: 'Crimson Text', serif;
+    font-weight:bolder;
+    margin:4;
+    padding:10px;
+    background-color:white;
+}
+
+.number{
+    width:100px;
+    height:50px;
+    font-size:xx-large;
+    color:brown;
+    background-color:lightgreen;
+    border:5px groove white;
+    border-radius:20px;
+    display:inline-block;
+}
+.container_button{
+    width:200px;
+    padding:8px;
+    margin:10px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    background-color:#3b5998;
+    color:white;
+    
+    font-size:x-large;
+    border-radius:30px;
+}
+.container_button:hover{
+    background-color:#1f1998;
+}
+.frame{
+    padding:10px;
+    margin:20px;
+    border:none;
+}
+.disaster-frame{
+    width:1000px;
+    height:400px;
+    border-radius:10px;
+    display:block;
+    padding:10px;
+    visibility:visible;
+    border:2px solid #3b5998;
+}
+#tab{
+    background-color:#3b5998;
+    width:484px;
+    color:white;
+    border-radius:20px;
+}
+#tab li a {
+    color:white;
+    
+}
+#tab li a:hover{
+    background-color:#00A4CCFF;
+}
+.sub-menu{
+    list-style-type:none;
+    width:150px;
+    color:white;
+    position:fixed;
+    display:none;
+    background-color:#3b5998;
+}
